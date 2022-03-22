@@ -2,6 +2,7 @@
 https://help.reg.ru/hc/ru/articles/4408047645585-Как-установить-Docker-на-CentOS?
 
 sudo dnf install https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.10-3.2.el7.x86_64.rpm
+yum install -y yum-utils device-mapper-persistent-data lvm2
 sudo dnf install docker-ce -y
 docker
 
